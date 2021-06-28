@@ -1,0 +1,4 @@
+python -m pip install flask
+python -m pip install tensorflow
+python -m pip install opencv-python
+python -m pip install image
