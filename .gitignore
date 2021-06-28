@@ -1,0 +1,6 @@
+.vscode/
+__pycache__/
+env/
+model_preprocesado_32_avg82/
+model_preprocesado_32.h5
+model_tf1.5.model
