@@ -51,7 +51,7 @@ def detectLetter(imgPath):
     input_tensor=input_tensor[tf.newaxis, ...]
     input_tensor=input_tensor[:, :, :, :3]
 
-    detections=model(input_tensor)
+    with tf.device("cpu:0"): detections=model(input_tensor)
 
     num_detections=int(detections.pop('num_detections'))
     detections={key:value[0,:num_detections].numpy()
@@ -77,13 +77,3 @@ def CargarImagen(img):
     print("Gesture Detected", fullpath2)
     
     return fullpath2
-
-
-
-
-
-
-        
-        
-        
-        

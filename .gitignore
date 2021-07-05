@@ -7,3 +7,4 @@ model_tf1.5.model
 saved_model/
 object_detection/protos/__pycache__/
 object_detection/utils/__pycache__/
+.idea/
