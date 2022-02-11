@@ -4,7 +4,7 @@ env/
 model_preprocesado_32_avg82/
 model_preprocesado_32.h5
 model_tf1.5.model
-saved_model/
 object_detection/protos/__pycache__/
 object_detection/utils/__pycache__/
 .idea/
+saved_model/variables/variables.data-00000-of-00001
