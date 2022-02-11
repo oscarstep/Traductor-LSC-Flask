@@ -7,4 +7,3 @@ model_tf1.5.model
 object_detection/protos/__pycache__/
 object_detection/utils/__pycache__/
 .idea/
-saved_model/variables/variables.data-00000-of-00001
